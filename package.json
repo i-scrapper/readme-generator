@@ -1,0 +1,26 @@
+{
+  "name": "@i-scrapper/readme-generator",
+  "version": "1.0.0",
+  "description": "readme-generator - i-scrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-scrapper/readme-generator.git"
+  },
+  "keywords": [
+    "i-scrapper",
+    "readme-generator"
+  ],
+  "author": "i-scrapper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i-scrapper/readme-generator/issues"
+  },
+  "homepage": "https://github.com/i-scrapper/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
