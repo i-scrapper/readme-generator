@@ -39,7 +39,7 @@ const questions = [
             if (repoInput) {
                 return true;
             } else {
-                console.log('Please enter the name of your repo!')
+                console.log('Please enter the name of your repo!');
             }
         }
     },
@@ -75,7 +75,6 @@ const questions = [
         message: 'Please provide license information.',
         choices: ['MIT', 'GNU', 'Apache 2.0', 'ISC'],
         validate: licenseInput => {
-            console.log(licenseInput);
             if (licenseInput) {
                 return true;
             } else {
