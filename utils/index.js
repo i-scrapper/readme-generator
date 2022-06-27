@@ -3,7 +3,7 @@ const create = {
     TOC(string = "") {
         const sections = ["Installation", "Usage", "Built With", "Support"];
         for (var section of sections) {
-            string += `* [${section}](#${section.toLowerCase()})\n`;
+            string += `* [${section}](#${section.toLowerCase().replace(/(\s)/g, "-")})\n`;
         }
         return string.trim();
     },
